@@ -9,7 +9,7 @@ import { fadeIn } from "../variants";
 const Banner = () => {
   return (
     <section
-      className="min-h-[85vh] lg-min-h-[78vh] flex items-center"
+      className="min-h-[70vh] lg-min-h-[78vh] flex items-center"
       id="home"
     >
       <div className="container mx-auto">
@@ -43,7 +43,7 @@ const Banner = () => {
                   2000,
                 ]}
                 speed={50}
-                className="text-accent"
+                className="text-[#5bc0dc]"
                 wrapper="span"
                 repeat={Infinity}
               />

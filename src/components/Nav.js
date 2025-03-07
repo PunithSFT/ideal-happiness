@@ -72,6 +72,7 @@ const Nav = () => {
             to="services"
             smooth={true}
             duration={800}
+            offset={25}
             className={`cursor-pointer w-[50px] h-[50px] flex items-center justify-center ${
               activeSection === "services" ? "active" : ""
             }`}
